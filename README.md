@@ -24,4 +24,5 @@ Después de todas las comprobaciones, he generado dos llaves con el comando “*
 <img width="621" height="378" alt="image" src="https://github.com/user-attachments/assets/88cdc305-b52b-4dca-be00-66f66dde921a" />
 
 Para hacer la transferencia de mi llave pública al servidor, he utilizado el comando “***ssh-copy-id \-p 2222 pabloml@localhost***” para copiarla.
-<img width="834" height="255" alt="image" src="https://github.com/user-attachments/assets/8c16085d-b495-43e7-8e14-5ec399530185" />
+<img width="840" height="277" alt="image" src="https://github.com/user-attachments/assets/76d781db-9f89-4676-b55b-10a375edc955" />
+
