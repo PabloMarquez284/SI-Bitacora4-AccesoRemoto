@@ -51,3 +51,10 @@ En primer lugar, para transferir el código desde el equipo local al servidor de
 En segundo lugar, para el flujo de trabajo, el desarrollador se va a encargar de gestionar el código con **Git en local** y una vez haya validado los cambios, los sube al servidor DigitalOcean mediante **SFTP** usando un cliente como **FileZilla** con autenticación por clave SSH.
 
 Por último, mi equipo va a trabajar en **Discord**, una herramienta moderna la cual todos sabemos manejar y sirve para estas ocasiones. Configuraremos **webhooks** que actúa como un “mensajero”,  para recibir alertas automáticas si el servidor cae, permitiendo al equipo reaccionar de inmediato sin revisar manualmente el estado del servidor.
+
+
+## 4. Justificación Científica
+
+
+## REFERENCIAS
+[1] Repositorio Universidad de Alicante, IDS de red para la detección de ataques sobre SSH y FTP. Disponible en: (https://rua.ua.es/entities/publication/e32ee3ca-816c-4330-b40b-df3503919bbb)
