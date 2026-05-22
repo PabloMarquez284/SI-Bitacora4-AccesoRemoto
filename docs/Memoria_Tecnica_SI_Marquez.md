@@ -41,7 +41,7 @@ La combinación de **Docker** y **Guacamole** resuelve de forma eficiente los pr
 
 ## 2. Estimación de Costes de Infraestructura
 En la siguiente tabla podemos ver la estimación de costes de la infraestructura Cloud, con sus respectivos cálculos y datos necesarios.
-<img width="539" height="196" alt="image" src="https://github.com/user-attachments/assets/384186df-7dbd-404f-9ecc-bc2685e803a9" />
+<img width="539" height="196" alt="image" src="https://github.com/user-attachments/assets/384186df-7dbd-404f-9ecc-bc2685e803a9" />  
 También he implementado la tabla con los costes en un pdf dentro del repositorio, dentro de la carpeta "docs".
 
 
