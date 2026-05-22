@@ -40,4 +40,14 @@ La combinación de **Docker** y **Guacamole** resuelve de forma eficiente los pr
 
 
 ## 2. Estimación de Costes de Infraestructura
+En la siguiente tabla podemos ver la estimación de costes de la infraestructura Cloud, con sus respectivos cálculos y datos necesarios.
 <img width="539" height="196" alt="image" src="https://github.com/user-attachments/assets/384186df-7dbd-404f-9ecc-bc2685e803a9" />
+También he implementado la tabla con los costes en un pdf dentro del repositorio, dentro de la carpeta "docs".
+
+
+## 3\. Estrategia de Despliegue y Comunicación
+En primer lugar, para transferir el código desde el equipo local al servidor de producción se utilizará **SFTP**. Este cifra toda la comunicación mediante **SSH** (puerto 22), garantizando la seguridad de los ficheros. Por otro lado, el **FTP** se descarta por sus vulnerabilidades críticas en entornos reales, ya que este es el tradicional, y transmite datos y credenciales en texto plano.
+
+En segundo lugar, para el flujo de trabajo, el desarrollador se va a encargar de gestionar el código con **Git en local** y una vez haya validado los cambios, los sube al servidor DigitalOcean mediante **SFTP** usando un cliente como **FileZilla** con autenticación por clave SSH.
+
+Por último, mi equipo va a trabajar en **Discord**, una herramienta moderna la cual todos sabemos manejar y sirve para estas ocasiones. Configuraremos **webhooks** que actúa como un “mensajero”,  para recibir alertas automáticas si el servidor cae, permitiendo al equipo reaccionar de inmediato sin revisar manualmente el estado del servidor.
